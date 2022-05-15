@@ -1,0 +1,10 @@
+.flowingColor {
+  background: linear-gradient(45deg, #6969FF, #C669FF);
+  animation: hue-rotate 2s linear infinite alternate;
+}
+
+@keyframes hue-rotate {
+  to {
+    filter: hue-rotate(90deg);
+  }
+}
